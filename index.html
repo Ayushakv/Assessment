@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script
+      type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"
+    ></script>
+    <script type="text/javascript" src="index.js"></script>
+  </head>
+  <body>
+    <form>
+      <div class="container">
+        <div class="imgcontainer">
+          <img src="images/avatar.png" alt="Avatar" class="avatar" />
+        </div>
+        <div class="inpcontainer">
+          <label>Username : </label>
+          <input
+            type="text"
+            placeholder="Enter Username"
+            name="username"
+            id="username"
+            required
+          />
+          <label>Password : </label>
+          <input
+            type="password"
+            placeholder="Enter Password"
+            name="password"
+            id="password"
+            required
+          />
+        </div>
+        <div class="btncontainer">
+          <button id="btn" type="button" onclick="login()">Login</button>
+        </div>
+        <center>
+          <div class="btncontainer">
+            <span class="psw"
+              >Forgot
+              <a href="#">password?</a>
+            </span>
+          </div>
+        </center>
+      </div>
+    </form>
+  </body>
+</html>
